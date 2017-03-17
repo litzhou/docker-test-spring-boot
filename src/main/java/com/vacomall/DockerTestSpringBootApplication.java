@@ -11,7 +11,7 @@ public class DockerTestSpringBootApplication {
 
 	@RequestMapping("")
 	public String index(){
-		return "Hello Docker.";
+		return "Hello Docker,This is a demo.";
 	}
 	
 	public static void main(String[] args) {
