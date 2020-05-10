@@ -5,13 +5,16 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * @author gaojun.zhou
+ */
 @RestController
 @SpringBootApplication
 public class DockerTestSpringBootApplication {
 
 	@RequestMapping("")
 	public String index(){
-		return "hello,docker.";
+		return "hello,docker run ok";
 	}
 	
 	public static void main(String[] args) {
